@@ -1,0 +1,648 @@
+
+@font-face{
+    font-family:'apercu';
+     src: url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('opentype'),
+     url('https://staging.tossdown.site/assets/theme_one/fonts/aperculight/aperculight.otf') format('otf');
+     font-weight: normal;
+     font-style: normal;
+     font-variant-ligatures: no-common-ligatures;}
+
+     @font-face{
+        font-family:'futurak';
+         src: url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('truetype'),
+         url('https://staging.tossdown.site/assets/theme_one/fonts/futurak/futurak.ttf') format('ttf');
+         font-weight: normal;
+         font-style: normal;
+         font-variant-ligatures: no-common-ligatures;}
+         @font-face{
+            font-family:'butler';
+             src: url('https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf') format('opentype'),
+             url('https://staging.tossdown.site/assets/theme_one/fonts/butlerbold/butlerbold.otf') format('otf');
+             font-weight: normal;
+             font-style: normal;
+             font-variant-ligatures: no-common-ligatures;
+           }
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+
+nav{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+   
+    position: fixed;
+  
+}
+.navbar >img{
+    width: 155px;
+    height: 85px;
+    margin-top: 15px;
+    margin-left: 25px;
+    float: left;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right:40px ;
+    margin-top: 30px;
+    color: white;
+    font-family: "apercu";
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.add{
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px 20px;
+  margin-right: 2px;
+  margin-left: 0px;
+  
+}
+.adda{
+    border: 2px solid white;
+    border-radius: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left:4px;
+   padding-right: 15px;
+   margin-right: 10px;
+   margin-left: 0px;
+   background-color: red;
+}
+.adda span{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    padding: 8px 10px;
+    border-radius: 45px;
+    margin-right: 0px;
+    
+}
+.adda span i{
+    color: red;
+}
+.next1>img{
+width: 100%;
+height: 450px;
+margin-top: 100px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.next2{
+    width: 100%;
+    background-color: black;
+    height: 550px;
+    color: white;
+}
+.short{
+    text-align: center;
+    padding-top: 94px;
+    line-height: 46px;
+    font-family:"apercu" ;
+}
+
+.short h2{
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.short h1 span{
+    font-family:"futurak" ;
+    letter-spacing: 2px;
+    font-size: 53px;
+    text-shadow: none;
+}
+.short p{
+    margin-bottom:0px;
+}
+.container{
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.card{
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.card img{
+    background-color: white;
+    padding: 15px 10px;
+    width: 230px;
+    height: 150px;
+}
+.card button{
+    width: 160px;
+    margin-top: 30px;
+    border: 2px solid white;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 16px 15px;
+    border-radius: 29px;
+}
+.container1{
+    width: 100%;
+    height:1150px;
+    background-color:#212121;
+    position: relative;
+    color: white;
+    
+}
+.container1 img{
+   position:absolute;
+   right: 32px;
+   top:52px;
+}
+.scontainer{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+
+}
+
+.scontainer h1{
+    font-family: "futurak";
+    font-size: 60px;
+}
+.scontainer h2 {
+    font-family:'butler' ;
+    font-size: 50px;
+
+}
+.scontainer p{
+    font-family:'apercu' ;
+}
+.fullrow{
+    display: flex;
+}
+.row1{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.row1 h1{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+.row1 h1 span{
+    font-family: "futurak";
+    letter-spacing: 4px;
+}
+.row1 p{
+    font-family: 'apercu' ;
+    margin-bottom: 7px;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 190px; 
+   padding-left: 14px; 
+   margin-top: 40px;
+}
+.btn span{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    padding: 8px 10px;
+    border-radius: 45px;
+    color: red;
+    margin-left: 7px;
+}
+
+.gap{
+    letter-spacing: 6px;
+    font-family:'apercu' ;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.row2 img{
+    width: 380px;
+    margin-top: 200px;
+    margin-right: 40px;
+    
+}
+.row3 img{
+position: absolute;
+top: 550px;
+left: 80px;
+width: 380px;
+}
+
+.row4{
+ position: absolute;
+top: 550px;
+right: 110px;
+}
+.row4 h1{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+.row4 h1 span{
+    font-family: "futurak";
+    letter-spacing: 4px;
+}
+.row4 p{
+    font-family: 'apercu' ;
+    margin-bottom: 7px;
+}
+.row5{
+    position: absolute;
+top: 850px;
+left: 80px;
+}
+.row5 h1{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 30px;
+}
+.row5 h1 span{
+    font-family: "futurak";
+    letter-spacing: 4px;
+}
+.row5 p{
+    font-family: 'apercu' ;
+    margin-bottom: 7px;
+}
+.row6 img{
+    position: absolute;
+    top: 850px;
+    right: 80px;
+    width: 380px;
+    }
+/* container3 css  */
+.container3{
+width: 100%;
+height: 1200px;
+background-color: black;
+position: relative;
+}
+.forimage img{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 280px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    padding-top: 58px;
+}
+.heading h1{
+    font-size: 50px;
+    font-family: "futurak";
+    letter-spacing: 3px;
+}
+.heading h2{
+    font-size: 50px;
+}
+.maincol{
+    color: white;
+    display: flex;
+    
+}
+.col1{
+    margin: 20px;
+    text-align: center;
+}
+.col1 img{
+    width: 289px;
+}
+.col1 h2{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.col1 h2 span{
+    font-family: "futurak";
+    letter-spacing: 3px;
+}
+.col1 p{
+    font-family: 'apercu' ;
+    margin-bottom: 15px;
+}
+.gapa{
+    letter-spacing: 6px;
+    font-family:'apercu' ;
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.btna{
+    border: 2px solid white;
+    border-radius: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 190px; 
+   padding-left: 14px; 
+   margin-top: 40px;
+   margin-left: 55px;
+}
+.btna span{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    padding: 8px 10px;
+    border-radius: 45px;
+    color: red;
+    margin-left: 7px;
+}
+.miansec{
+    position: relative;
+}
+.forimg img{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+.miansec{
+    display: flex;
+    color: white;
+    margin-left: 200px;
+}
+
+.col2{
+    margin: 20px;
+    text-align: center;
+}
+.col2 img{
+    width: 289px;
+}
+.col2 h2{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+.col2 h2 span{
+    font-family: "futurak";
+    letter-spacing: 3px;
+}
+.col2 p{
+    font-family: 'apercu' ;
+    margin-bottom: 15px;
+}
+/* section4 villagefranchise */
+.conatiner4{
+    width: 100%;
+    height: 700px;
+    background-color: #212121;
+}
+.thirdcol{
+    display: flex;
+    margin-top: 26px;
+    color: white;
+}
+.head1{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 35px;
+}
+.head1 h1{
+    font-family:"futurak" ;
+    letter-spacing: 3px;
+}
+.col3{
+    margin-right: 30px;
+}
+.col3 img{
+    width: 450px;
+}
+.col4{
+    
+}
+.col4 h2{
+    font-family: 'apercu' ;
+    margin-bottom: 16px;
+    font-size: 25px;
+}
+.col4 h2 span{
+    font-family: "futurak";
+    letter-spacing: 5px;
+}
+.col4 p{
+    font-family: 'apercu' ;
+    margin-bottom: 15px;}
+.gappa{
+    letter-spacing: 6px;
+    font-family:'apercu' ;
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.btnaa{
+    border: 2px solid green;
+    border-radius: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   width: 190px; 
+   padding-left: 14px; 
+   margin-top: 40px;
+   margin-left: 55px;
+   background-color: green;
+}
+.btnaa span{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    padding: 8px 10px;
+    border-radius: 45px;
+    color:green;
+    margin-left: 7px;}
+.conatiner5{
+    width: 100%;
+    height: 1350px;
+    background-color: black;
+    position: relative;
+ 
+}
+/* section5 */
+.head2{
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+}
+.head2 h1{
+    font-family:"futurak" ;
+    font-size: 60px;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+.head2 h2{
+    font-size: 43px;
+}
+.head2 h2 span{
+    font-size: 25px;
+}
+.imga img{
+    
+    width: 300px;
+    
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.col3{
+    margin-top: 30px;
+    display: flex;
+}
+.colm3{
+    background-color: white;
+    width: 290px;
+    height: 280px;
+    text-align: center;
+    padding-top: 30px;
+    margin: 25px;
+
+}
+.col3 h2{
+    margin-bottom: 10px;
+}
+.col3 p{
+    font-size: 20px;
+}
+.colm3 img{
+    width: 40px;
+}
+.colm3>p{
+    letter-spacing: 6px;
+    font-family:'apercu' ;
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+.col4{
+    display: flex;
+    margin-left: 160px;
+}
+.col5 h1{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.imgfull img{
+    width: 178px;
+    margin: 10px;
+
+}
+.container6{
+    width: 100%;
+    height: 800px;
+    background-color: #212121;
+    
+}
+.colm{
+    display: flex;
+}
+.col7{
+    width: 350px;
+    color: white;
+    margin-top: 80px;
+    font-family:"apercu" ;
+}
+.col7 img{
+    width: 200px;
+    margin-bottom: 25px;
+    
+}
+.col8{
+    color: white;
+    margin-top: 70px;
+    margin-left: 120px;
+    text-align: center;
+    width: 200px;
+}
+.col8 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.col8 ul li{
+    list-style: none;
+    margin-bottom: 14px;
+    font-family:'apercu' ;
+}
+.col9{
+    color: white;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.col9 h2{
+    margin-bottom: 19px;
+}
+.col9 ul li{
+    padding-bottom: 19px;
+    list-style: none;
+    font-family:'apercu' ;
+}
+.col11{
+    margin-top: 30px;
+    position: relative;
+}
+.col11 img{
+    position: absolute;
+    width: 300px;
+}
+.col12{
+    margin-left: 10px;
+    padding-top: 70px;
+    padding-left: 20px;
+    color: white;
+}
+.col12 h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.col12 p span{
+    background-color:red;
+    width: 90px;
+    height: 90px;
+    padding: 8px 10px;
+    border-radius: 45px;
+    color:white;
+    margin-left: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.col12 img{
+    margin-top: 30px;
+}
+.las p{
+    float: right;
+    color: white;
+    margin-top: 20px;
+    font-family: 'apercu';
+    margin-right: 55px;
+    letter-spacing: 3px;
+    color: yellow;
+}
+.las img{
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 420px;
+    cursor: pointer;
+}
+
+
+
+
+
